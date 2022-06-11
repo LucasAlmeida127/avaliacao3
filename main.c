@@ -8,7 +8,7 @@ int main(void) {
     printf("Quantidade de valores: ");
     scanf("%i", &quantidade);
     for (int i = 0; i < quantidade; i++) {
-        rintf("Valor %i: ", i+1);
+        printf("Valor %i: ", i+1);
         scanf("%i", &vetor[i]);
     }
 
@@ -16,7 +16,7 @@ int main(void) {
     Funcao(pvetor, quantidade, &maior, &menor); // Função que retorna o valor máximo e mínimo de um vetor de inteiros
 
     printf("\n%i",vetor[0]);
-    for (int i = 0; i < quantidade; i++){
+    for (int i = 0; i < quantidade; i++) {
         printf(",%i",vetor[i]);
     }
     printf("\nMaximo: %i | Minimo: %i", maior, menor);
