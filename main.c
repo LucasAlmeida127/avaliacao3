@@ -8,8 +8,9 @@ int main(void) {
     for (int i = 0; i < quantidade; i++) {
         scanf("%i", &vetor[i]);
     }
-    
+
     int maior = vetor[0], menor = vetor[0];
+    Funcao(pvetor, quantidade, &maior, &menor); // Função que retorna o valor máximo e mínimo de um vetor de inteiros
 
     return 0;
 }
